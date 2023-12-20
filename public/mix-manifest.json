@@ -1,0 +1,21 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/js/script.js": "/js/script.js",
+    "/js/home.js": "/js/home.js",
+    "/js/buy.js": "/js/buy.js",
+    "/js/sell.js": "/js/sell.js",
+    "/js/pricing.js": "/js/pricing.js",
+    "/js/contact-form.js": "/js/contact-form.js",
+    "/js/bikes/show.js": "/js/bikes/show.js",
+    "/js/account/profile.js": "/js/account/profile.js",
+    "/js/account/listings.js": "/js/account/listings.js",
+    "/js/account/favourites.js": "/js/account/favourites.js",
+    "/js/account/messages.js": "/js/account/messages.js",
+    "/js/user/profile.js": "/js/user/profile.js",
+    "/css/app.css": "/css/app.css",
+    "/fonts/lg.svg": "/fonts/lg.svg",
+    "/fonts/lg.ttf": "/fonts/lg.ttf",
+    "/fonts/lg.woff": "/fonts/lg.woff",
+    "/fonts/lg.woff2": "/fonts/lg.woff2",
+    "/images/loading.gif": "/images/loading.gif"
+}

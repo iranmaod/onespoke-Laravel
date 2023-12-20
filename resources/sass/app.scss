@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    /*! purgecss start ignore */
+
+    /* Trix */
+    @import '~trix/dist/trix.css';
+
+    trix-toolbar .trix-button-group-spacer,
+    trix-toolbar [data-trix-button-group="file-tools"],
+    trix-toolbar [data-trix-action="attachFiles"],
+    trix-toolbar [data-trix-attribute="code"],
+    trix-toolbar [data-trix-action="decreaseNestingLevel"],
+    trix-toolbar [data-trix-action="increaseNestingLevel"] {
+        display: none;
+    }
+
+    /* Filepond */
+    @import '~filepond/dist/filepond.css';
+    @import '~filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css';
+
+    .filepond--panel-root {
+        @apply bg-gray-200
+    }
+
+    li.filepond--item {
+        &.highlight {
+            outline: 3px solid #fc9f42;
+            border-radius: 8px;
+
+            &:before {
+                content: "Main Image";
+                font-size: 16px;
+                color: #ffffff;
+                font-weight: 700;
+                position: relative;
+                z-index: 10;
+                top: 5px;
+                left: 44px;
+            }
+        }
+    }
+
+    /* Sweet Alert */
+    @import '~sweetalert2/dist/sweetalert2.css';
+
+    /* Splide */
+    @import '~@splidejs/splide/dist/css/splide.min.css';
+    .splide--nav >.splide__track > .splide__list > .splide__slide.is-active {
+        border-color: #fc9f42;
+    }
+
+    #bike-search-form {
+        .splide__pagination__page.is-active {
+            background: #fc9f42 !important;
+        }
+    }
+
+    @import 'custom';
+    @import 'responsive';
+    @import 'sell';
+
+    /* Swiper */
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 80%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+        background: #fff;
+        font-size: 18px !important;
+        padding: 8px 13px;
+        border-radius: 30px;
+        box-shadow: 0 0 5px rgb(0 0 0 / 25%);
+    }
+
+    .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+        background: #fff;
+        font-size: 18px !important;
+        padding: 8px 13px;
+        border-radius: 30px;
+        box-shadow: 0 0 5px rgb(0 0 0 / 25%);
+    }
+
+    .b-profile {
+        margin-top: -180px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 40px !important;
+        height: 5px !important;
+        display: inline-block;
+        border-radius: 0 !important;
+        background: #000;
+        opacity: .2;
+    }
+
+    .swiper-pagination {
+        bottom: 0px !important;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: #FC9F42 !important;
+    }
+
+    /* rangeslider-js */
+    @import '~rangeslider-js/dist/styles.min.css';
+
+    .rangeslider__fill, .rangeslider__fill__bg, .rangeslider__handle {
+        background: #fc9f42;
+        height: 24px;
+    }
+
+    .rangeslider__fill {
+        height: 18px;
+        position: relative;
+        top: -12px;
+    }
+
+    .rangeslider__fill__bg {
+        background: #ccc !important;
+        height: 18px;
+        position: relative;
+        top: 6px;
+    }
+
+    .rangeslider__handle {
+        width: 24px;
+        height: 24px;
+        position: relative;
+        top: -21px;
+    }
+
+    /* lightGallery */
+    @import '~lightgallery/css/lightgallery-bundle.css';
+
+    /* cropperjs */
+    @import '~cropperjs';
+
+    .aspect-ratio {
+        padding-bottom: 56.25%;
+
+    }
+
+    /*! purgecss end ignore */
+}

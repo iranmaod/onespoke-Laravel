@@ -1,0 +1,39 @@
+import:
+  - recipe/laravel.php
+  - contrib/php-fpm.php
+  - contrib/npm.php
+
+config:
+  application: 'onespoke'
+  repository: 'git@github.com:martincarlin87/onespoke.co.uk.git'
+  php_fpm_version: '7.4'
+
+hosts:
+  staging:
+    remote_user: martin
+    hostname: staging.onespoke.co.uk
+    deploy_path: '/var/www/{{hostname}}'
+
+  production:
+    remote_user: martin
+    hostname: onespoke.co.uk
+    deploy_path: '/var/www/{{hostname}}'
+
+tasks:
+  deploy:
+    - deploy:prepare
+    - deploy:vendors
+    - artisan:storage:link
+    - artisan:view:cache
+    - artisan:config:cache
+    - artisan:migrate
+    - npm:install
+    - npm:run:production
+    - deploy:publish
+    - php-fpm:reload
+  npm:run:production:
+    script:
+      - 'cd {{release_path}} && npm run prod'
+
+after:
+  deploy:failed: deploy:unlock

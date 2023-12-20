@@ -1,0 +1,493 @@
+/*======= Media query 1920px to 1600px ===== */
+
+@media(max-width: 1920px) {
+
+}
+
+/*======= Media query 1600px to 1440 ===== */
+
+@media(max-width: 1600px) {
+
+}
+
+/*======= Media query 1440px to 1280px ===== */
+
+@media(max-width: 1440px) {
+
+    .content1 a {
+        font-size: 13px;
+    }
+
+    .hero-banner {
+        max-width: 45%;
+    }
+
+    .sold-bike1 .absolute {
+        right: 10px;
+        top: 10px;
+    }
+
+    .bike-detail-pg .vb-cards {
+        margin: 0;
+    }
+
+    .bike-detail-pg .vb-cards .orange-btn {
+        font-size: 11px;
+    }
+
+    .bike-detail-pg .vb-cards p {
+        font-size: 11px;
+        text-align: left;
+    }
+    .bike-detail-pg .vb-cards .text-lg.pb-5 {
+        font-size: 15px;
+        text-align: left;
+    }
+}
+
+/*======= Media query 1280px to 1024 ===== */
+
+@media(max-width: 1280px) {
+
+
+    body .check-b label {
+        width: 23%;
+    }
+
+    .favourite-cards .featured-bikes {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    body .media-block {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .media-block .orange-btn a {
+        font-size: 10px;
+    }
+
+    .listing-form form input:not([type="checkbox"]):not([type="radio"]) {
+        width: 100%;
+    }
+
+    .listing-form form input#huey {
+        width: unset;
+    }
+
+    body .y-listing h2 {
+        font-size: 18px;
+    }
+    body .y-listing h3 {
+        font-size: 15px;
+    }
+
+    body .y-listing p.text-xs {
+        font-size: 10px;
+    }
+
+    body .y-listing p {
+        font-size: 12px;
+    }
+
+    body .y-listing .yl-button {
+        font-size: 10px;
+    }
+
+    .my-subs-tabs .subs-btn {
+        width: 60%;
+    }
+
+    body .my-subs-tabs {
+        width: 75%;
+    }
+}
+
+/*======= Media query 1024px to 991 ===== */
+
+@media(max-width: 1024px) {
+
+    body .foot3 a {
+        font-size: 18px;
+        padding: 10px 16px;
+    }
+
+    .payment_sec .grid {
+        width: 85%;
+    }
+
+    body .y-listing {
+        width: 85%;
+    }
+
+    body .yl-head {
+        width: 85%;
+    }
+
+    body .b-product-sec .featured-bikes {
+        justify-content: center;
+        width: 100%;
+    }
+
+}
+
+/*======= Media query 991px to 767px ===== */
+
+@media(max-width:991px) {
+
+    body .hero-banner {
+        max-width: 100%;
+    }
+
+    body .paypal-img {
+        position: unset;
+        padding-top: 15px;
+    }
+
+    body input.form-checkbox.my-box1 {
+        margin-left: -5px;
+    }
+
+    .about-accordion .tab.w-full {
+        box-shadow: unset;
+    }
+    body .media-block .vb-cards {
+        width: 45%;
+    }
+
+    body .my-subs-tabs {
+        width: 95%;
+    }
+
+    body .login-inner {
+        width: 60%;
+    }
+
+    body .about-testimonial .mySlides {
+        width: 100%;
+    }
+
+    .about-testimonial a.next {
+        right: 0;
+    }
+
+    .about-testimonial a.prev {
+        left: 0;
+    }
+
+    .aboutsec .grid {
+        display: block;
+        width: 100%;
+    }
+
+    body .planet-grid {
+        display: block;
+    }
+    body .planet-grid h1 {
+        font-size: 27px;
+    }
+
+    .all_bike-sec1 form {
+        width: 75%;
+    }
+
+    .all_bike-sec1 .container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    body .chat-area {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+
+
+/*======= Media query 767px to 480px ===== */
+
+@media(max-width:767px) {
+
+    body .rangeslider__handle {
+        top: -61px;
+    }
+
+    body .rangeslider__fill {
+        top: -32px;
+    }
+
+    body .about-accordion label.leading-normal {
+        font-size: 12px;
+    }
+
+    body .foot1 {
+        width: 100%;
+
+        img {
+            margin: 0 auto;
+        }
+    }
+
+    body .one-footer .content1 {
+        text-align: center;
+    }
+
+    .flex.flex-wrap.absolute.right-10.listing-button {
+        right: 0;
+        max-width: 35%;
+    }
+
+    .listing-form .flex.-mx-3 label {
+        padding-top: 0;
+    }
+
+    .listing-form label {
+        padding-top: 10px;
+    }
+
+    body .p-flex1 {
+        width: 100%;
+    }
+
+    body .p-flex2 {
+        display: block;
+        text-align: center;
+    }
+
+    body .product-related {
+        padding-top: 0;
+    }
+
+    .content1.col-span-2.ml-12.pt-9 {
+        margin: 0;
+        text-align: center;
+    }
+
+    nav.relative.flex .container, nav.relative.flex .container .w-full {
+        padding: 0;
+    }
+
+    .c-area1 {
+        margin-bottom: 20px;
+    }
+
+    body .chat-inner {
+        display: block;
+        width: 100%;
+    }
+
+    .message-area p {
+        width: 85%;
+    }
+
+    .all_bike-sec1 form {
+        width: 95%;
+    }
+
+    body .all-bike-inner .vb-cards-w .grid {
+        display: grid;
+    }
+
+    body .all-bike-inner .vb-cards-w .orange-btn {
+        font-size: 13px;
+    }
+
+    .bb-grid .first-grid .grid-cols-4 {
+        width: 100%;
+    }
+
+    .bb-grid .first-grid .grid-cols-4 img {
+        padding: 0 2px;
+    }
+
+    .planet-sec .bb-grid .second-grid .orange-btn {
+        width: 100%;
+        margin: 15px 0 10px 0;
+    }
+
+    .bike-detail-pg #popover-id {
+        display: none;
+    }
+
+    body .index-form div {
+        display: block;
+        margin: 20px 0;
+        padding: 0;
+    }
+
+    body .index-form div svg {
+        margin-right: 15px;
+    }
+
+    body .brands-section {
+        padding: 45px 0;
+    }
+
+    .about-accordion .about-grid2 h1 {
+        font-size: 32px;
+    }
+
+    .about-testimonial .about-grid2 {
+        width: 95%;
+    }
+
+    .about-testimonial .about-grid2 h1 {
+        font-size: 33px;
+    }
+
+    .aboutsec .about-grid2 h1 {
+        font-size: 32px;
+    }
+
+    .aboutsec .container {
+        width: 85%;
+    }
+
+    .aboutsec .grid h2.text-4xl {
+        font-size: 32px;
+    }
+
+    body .our-pkg-div {
+        width: 90%;
+    }
+
+    .my-subs-tabs .subs-btn {
+        width: 100%;
+    }
+
+    nav.relative.flex {
+        width: 100%;
+    }
+
+    body .y-listing .yl-button {
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    body .y-listing .li-num {
+        margin: 0;
+    }
+
+    .media-block .vb-cards .overflow-hidden {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .b-profile {
+        margin-top: -160px;
+    }
+
+    .media-profile {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .media-block {
+        width: 100%;
+        display: block !important;
+        margin: 0 auto;
+    }
+
+    body .media-block .vb-cards {
+        width: 92%;
+        margin: 20px 10px;
+    }
+
+    body .sold-bike1 p {
+        width: 95%;
+    }
+
+    body .payment_sec .grid {
+        width: 100%;
+        display: block;
+    }
+
+    body .y-listing img {
+        width: 100%;
+        padding-bottom: 25px;
+    }
+
+    body .y-listing {
+        display: block;
+        padding: 20px;
+    }
+
+    body .sold-out-img img {
+        width: unset;
+    }
+
+    .p-policy-sec .grid {
+        display: block;
+    }
+
+    .p-policy-sec .col-span-5 .table tbody tr td:first-child {
+        display: table-column-group;
+    }
+
+    .p-policy-sec .col-span-5 .table tbody tr td:last-child {
+        width: 100%;
+    }
+
+    body .login-inner {
+        width: 95%;
+    }
+
+    body .login-page {
+        height: 100vh;
+        padding-bottom: 60px;
+    }
+
+    .signup-page {
+        height: 100% !important;
+    }
+
+    body .content1 a {
+        font-size: 13px;
+    }
+}
+
+/*======= Media query 767px to 480px ===== */
+@media(max-width:480px) {
+
+    .sold-bike1 .absolute {
+        right: 20px;
+    }
+
+    .b-profile {
+        margin-top: -135px;
+    }
+
+    .footer-form input {
+        font-size: 10px;
+    }
+
+    .media-profile {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    body .y-listing h2 {
+        font-size: 15px;
+    }
+
+    body .listing-form label.pl-4 {
+        font-size: 13px;
+    }
+
+    body .content1 a {
+        font-size: 12px;
+    }
+}
+
+
+@media(max-width:375px) {
+    body .listing-form label.pl-4 {
+        font-size: 10px;
+    }
+
+    body .content1 a {
+        font-size: 12px;
+    }
+}

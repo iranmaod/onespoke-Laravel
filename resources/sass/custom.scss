@@ -1,0 +1,527 @@
+
+select {
+    /* select elements on the website use a custom svg, for all other cases, the tailwind forms css is used */
+    background-image: none !important;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.f-arial {
+    font-family: Arial !important;
+}
+
+i.fas.fa-bars {
+    background: #3D86B9;
+    border: 1px solid #3D86B9;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.bg-gradient {
+    background: linear-gradient(45deg, #E8F6FF, transparent);
+}
+
+.login-page {
+    .bg-gradient {
+        background: transparent !important;
+    }
+}
+
+.orange {
+    color: #fc9f42 !important;
+}
+
+.orange-bg {
+    background-color: #fc9f42;
+}
+
+.dark {
+    color: #414141;
+}
+
+.blue {
+    color: #0160a2;
+}
+
+.blue-bg {
+    background-color: #0160a2;
+}
+
+.green {
+    color: #20B020;
+}
+
+.orange-btn {
+    background: #fc9f42;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.grid-padding p, .grid-padding h4 {
+    padding-bottom: 10px;
+}
+
+ul li {
+    padding-bottom: 20px;
+}
+
+.blue-btn {
+    background: #0160a2;
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 1rem;
+}
+
+.card-section .orange-btn a {
+    font-size: 14px;
+}
+
+.hero-banner {
+    max-width: 33%;
+    margin: 10% auto 0 12%;
+}
+
+.home-slider {
+    background-image: url(/images/home/home-bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.b-radius {
+    border-radius: 30px;
+}
+
+.one-footer {
+    background: #0160a2;
+}
+
+.brands-section {
+    background: #fff9f3;
+}
+
+.b-bg1 {
+    background-image: url(/images/bike-bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.b-bg2 {
+    background-image: url(/images/bike-bg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.b-bg3 {
+    background-image: url(/images/bike-bg3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.b-bg4 {
+    background-image: url(/images/bike-bg4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sold-bike1 {
+    background-image: url(/images/s-bikebg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.foot3 a i,
+.foot3 p i {
+    color: #fb9f42;
+}
+
+.footer-form input {
+    padding: 7px 0;
+    border-bottom: 1px solid #fc9f42 !important;
+    border-radius: 0;
+    background: transparent;
+    border: unset;
+    padding-left: 50px;
+}
+
+.foot3 p {
+    font-size: 14px;
+}
+
+.footer-form {
+    position: relative;
+}
+
+.footer-form label {
+    position: absolute;
+    left: 15px;
+    font-size: 25px;
+    color: #fc9f42;
+}
+
+.footer-form button {
+    background: #fc9f42;
+    color: #000;
+}
+
+.login-page {
+    background-image: url(/images/login-bg.png);
+    background-size: cover;
+
+    nav {
+
+        div#example-collapse-navbar {
+            display: none;
+        }
+
+        img {
+            filter: invert(1);
+        }
+
+        button {
+            display: none;
+        }
+    }
+}
+
+.mySwiper {
+    padding: 0 26px !important;
+}
+
+.button_shadow:after {
+    color: #000;
+    font-size: 15px !important;
+    padding: 12px 15px;
+    box-shadow: 0 5px 20px #00000026;
+}
+
+.custom_border_radius {
+    border-radius: 70px;
+    padding: 20px 20px;
+}
+
+.col-span-5 .table tbody tr td:first-child {
+    width: 20%;
+    vertical-align: top;
+}
+
+.col-span-5 .table tbody tr td:last-child {
+    width: 80%;
+}
+
+.privacy_policy_marker li::marker {
+    font-weight: 600;
+}
+
+ul li::marker {
+    font-weight: 600;
+}
+
+@media (max-width: 1920px) {
+
+    .hero-banner {
+        margin: 10% auto 0 8%;
+    }
+
+    .vb-listing .grd1 {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1600px) {
+
+    .vb-listing .grd1 {
+        width: 91%;
+    }
+
+    .featured-bikes {
+        max-width: 92%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1280px) {
+
+    .vb-listing {
+        width: 33%;
+    }
+
+    .vb-listing .grd1 {
+        width: 100%;
+    }
+
+    .home-slider .bg-cover {
+        height: 100%;
+    }
+
+    .hero-banner {
+        max-width: 100%;
+        margin: unset;
+    }
+}
+
+@media (max-width: 1023px) {
+    .vb-listing {
+        width: 40%;
+    }
+
+    .one-footer .grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .one-footer .grid p {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 991px) {
+    body .vb-listing {
+        width: 50%;
+    }
+
+    .category-section .cycle-grid {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .brands-section h2,
+    .category-section h2 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .brands-section img {
+        margin: auto;
+    }
+
+    body .vb-listing {
+        width: 30%;
+    }
+
+    .hero-banner h1,
+    .card-section h2 {
+        font-size: 25px;
+    }
+
+    .brands-section h2,
+    .category-section h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .multiple-bikes .grid {
+        display: block;
+    }
+
+    .multiple-bikes .grid > div {
+        margin-bottom: 5%;
+        width: 100%;
+        background-position: center;
+    }
+
+    .hero-banner {
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: unset;
+    }
+
+    .hero-banner button {
+        margin-bottom: 3%;
+        width: 100%;
+    }
+}
+
+@media(max-width:480px) {
+    body .vb-listing {
+        width: 60%;
+    }
+}
+
+.vb-cards {
+    margin: 15px;
+    border: 1px solid #ccc;
+}
+
+.vb-family h2 {
+    font-family: Arial !important;
+}
+
+.dblue {
+    color: #072841;
+}
+
+/*==== TESTIMONIAL SLIDER ====== */
+
+
+.about-testimonial a.prev {
+    position: absolute;
+    left: 270px;
+}
+
+.about-testimonial a.next {
+    position: absolute;
+    right: 270px;
+}
+
+.slideshow-container {
+    position: relative;
+}
+
+/* Slides */
+.mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {
+    font-style: italic;
+}
+
+/* ====== SUBSCRIPTION PAGE CSS ======= */
+
+.tab-content {
+    max-height: unset;
+}
+
+.my-subs-tabs .subs-btn {
+    border: 1px solid #EBEBEB;
+    padding: 0;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 25px;
+    background: #EBEBEB;
+}
+
+.my-subs-tabs .subs-btn li {
+    padding: 15px 10px;
+    margin: 0;
+}
+
+.my-subs-tabs .subs-btn li a {
+    border: 0;
+    box-shadow: unset;
+    border-radius: 25px;
+    background:#fff;
+}
+
+.about-testimonial {
+    background: #f5ebe2;
+}
+
+.box-hover .rounded-full:hover.rounded-full img {
+    filter: invert(1);
+
+}
+
+.box-hover .rounded-full:hover.rounded-full .img-rounded {
+    background: #0160A2;
+}
+
+.box-hover .rounded-full:hover.rounded-full p {
+    color: #0160A2;
+}
+
+.vb-cards-w {
+    width: 30% !important;
+}
+
+.filter-col1 {
+    padding: 25px;
+    border: 2px solid #0160a2;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px rgb(0 0 0 / 50%);
+}
+
+#modal-id {
+    background: #0160a29c;
+}
+
+.fb-color {
+    color: #3b5998;
+}
+
+.insta-color {
+    color: #8a3ab9;
+}
+
+.tw-color {
+    color: #1DA1F2;
+}
+
+.linkedin-color {
+    color: #2867B2;
+}

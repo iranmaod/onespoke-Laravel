@@ -1,0 +1,43 @@
+.pull-right {
+	float: right !important;
+}
+.label-primary {
+	background-color: #337ab7;
+}
+.label-success {
+	background-color: #5cb85c;
+}
+.label-warning {
+		background-color: #f0ad4e;
+}
+.label-danger {
+	background-color: #d9534f;
+}
+
+.label {
+	display: inline;
+	padding: .2em .6em .3em;
+	font-size: 75%;
+	font-weight: 700;
+	line-height: 1;
+	color: #fff;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: .25em;
+}
+.block-index {
+	margin: 20px 0 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #e9651d;
+	text-align: center;
+}
+.block-index a {
+	background-color: #EDEAE1;
+	display: inline-block;
+	color: #e9651d;
+	padding: 5px 8px;
+	margin: 4px 2px;
+	width: 30px;
+}
